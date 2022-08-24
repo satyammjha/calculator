@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+<link rel="manifest" href="./images/site.webmanifest">
+  <title>Calculator | @satyammjha</title>
+  <script src="https://kit.fontawesome.com/6006a0109e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Preloader -->
+
+  <div class="drawing" id="loading">
+    <div class="loading-dot"></div>
+  </div>
+
+  <!-- Heading -->
+
+  <div class="main">
+    <div id="heading_main" class="heading head1">
+      <h2>calc</h2>
+      <p>Theme</p>
+      <div class="toggle_mode_number">
+        <span id="mode1">1</span>
+        <span id="mode2">2</span>
+        <span id="mode3">3</span>
+      </div>
+      <div id="tgl_area" class="toggle_mode_area tgl_mode_1">
+        <div id="crnt_mode" class="toggle_active tgl_active_1"></div>
+      </div>
+    </div>
+    <!-- screen -->
+    <div id="screen" class="scrn scrn_1">
+      10,000
+    </div>
+    <div id="keypad_container" class="keypad_container kpd_con_1">
+
+      <div class="keypad_btns_rows">
+        <button class="button Btn_thm_1" value="7">7</button>
+        <button class="button Btn_thm_1" value="8">8</button>
+        <button class="button Btn_thm_1" value="9">9</button>
+        <button id="delete" class="del1">Del</button>
+      </div>
+
+      <div class="keypad_btns_rows">
+        <button class="Btn_thm_1" value="4">4</button>
+        <button class="Btn_thm_1" value="5">5</button>
+        <button class="Btn_thm_1" value="6">6</button>
+        <button class="Btn_thm_1" value="+">+</button>
+      </div>
+      <div class="keypad_btns_rows">
+        <button class="Btn_thm_1" value="3">3</button>
+        <button class="Btn_thm_1" value="2">2</button>
+        <button class="Btn_thm_1" value="1">1</button>
+        <button class="Btn_thm_1" value="-">-</button>
+      </div>
+      <div class="keypad_btns_rows">
+        <button class="Btn_thm_1" value=".">.</button>
+        <button class="Btn_thm_1" value="0">0</button>
+        <button class="Btn_thm_1" value="/">/</button>
+        <button class="Btn_thm_1" value="*">x</button>
+      </div>
+      <div class="button_bottom">
+        <button id="reset" class="reset_thm_1">Reset</button>
+        <button id="equal" class="equal_thm_1">=</button>
+      </div>
+    </div>
+    <div class="connect">
+      Connect:
+      <a href="https://github.com/satyammjha" target="_blank"><i class="fa fa-github"></i></a>
+      <a href="https://twitter.com/satyammjha" target="_blank"><i class="fa fa-twitter"></i></a>
+      <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
