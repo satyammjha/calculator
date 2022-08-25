@@ -363,7 +363,7 @@ body {
   background-color: var(--Darkmagenta);
 }
 @media screen and (max-width: 700px) {
-  body{overflow:hidden;}
+  body{overflow: visible;}
   button {
     height: 65px;
     width: 68px;
